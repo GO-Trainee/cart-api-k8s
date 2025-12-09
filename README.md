@@ -21,7 +21,7 @@ Deploy the Cart API application to Kubernetes, first with raw manifests in a `te
 3. Optional but recommended:
    - ConfigMap for non-secret configuration.
    - Secret for sensitive values.
-   - Ingress and ingress controller for HTTP exposure.
+   - Gateway API for HTTP exposure.
 4. Validation:
    - Apply manifests to the `test` namespace and verify pods become Ready.
    - Demonstrate HPA scaling under load (e.g., stress test to trigger additional replicas).
